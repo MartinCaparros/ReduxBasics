@@ -2,7 +2,7 @@ import { setHobbies } from 'core/account/reducer';
 import React, { useState } from 'react';
 import { useDispatch } from 'react-redux';
 import { useSelector } from 'hooks';
-
+import Contador from '../Contador';
 const Content = () => {
 
     const dispatch = useDispatch();
@@ -41,6 +41,9 @@ const Content = () => {
                     )
                 }
             </ul>
+            <Contador
+                cantidad = {hobby}
+            />
         </div>
     );
 };

@@ -5,7 +5,7 @@ const initialState = {
     hobbies: localStorage.getItem('hobbies') ? localStorage.getItem('hobbies').split(',') : [],
     money: 0,
     userData: {
-        name: 'Diego'
+        name: 'Mati'
     }
 };
 
